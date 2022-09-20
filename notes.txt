@@ -1,0 +1,51 @@
+HTML - Hypertext Markup Language
+HTML-4
+CSS-2
+-----------
+HTML-5
+CSS-3
+-----------
+JS
+-----------
+HTML
+- Static web pages
+- Structure of web page
+
+- W3C - World Wide Web Consortium
+- standards for web
+- Introduced by Tim Berners Lee
+
+SEO - Search Engine Optimization
+
+Heading Tags
+h1 - rank-1 - used for title of page
+h2 - rank-2 - used for headings of sections
+h3 - rank-3 - sub headings
+h4 - rank-4 - sub headings
+h5 - rank-5 - sub sub headings
+h6 - rank-6 - sub sub headings
+
+Block Level
+- occupy full width available to them
+- div, h1...h6, table, form, p, ul, ol, li
+Inline Level
+- they occupy height and width according to content
+- a, span, strong, b, i, u, 
+Inline-Block
+- will have height and width but looks like inline element
+- img
+
+Text Formatting
+
+List
+- Ordered List
+- Unordered List
+- Description List
+
+Tables
+- thead - tr - th
+- tbody - tr - td / th
+- tfoot - tr - td / th
+
+- rowspan
+- colspan
