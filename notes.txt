@@ -49,3 +49,29 @@ Tables
 
 - rowspan
 - colspan
+
+
+Form Handling
+- Registration
+- Login
+- Payment
+- Feedback
+- Survey
+- Order
+- Subscribe
+- Post/Upload
+- Comment
+- Message
+- Search
+
+
+CSS - Cascading Stylesheet
+- Basics
+  - Ways to Apply CSS
+  - Selectors
+  - Borders and Backgrounds
+  - Text Formatting
+- Alignment
+  - Float
+  - Display
+  - Positions

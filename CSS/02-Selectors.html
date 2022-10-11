@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #section-1 {
+            background-color: lightcoral;
+        }
+        #section-2 {
+            background-color: lightgray;
+        } */
+        
+        #section-1, #section-2 {
+            background-color: lightcoral;
+        }
+        /* .title-1 {
+            color: white;
+        } */
+
+        /* Combinators */
+        #section-1 .child > h2 {
+            color: white;
+        }
+        /* #section-2 + h2 {
+            color: blue;
+        } */
+        #section-2 ~ h2 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Selectors</h1>
+
+    <!-- ID - Identity
+    - id is always unique
+    - one tag cannot have more than one id
+    - represented by # -->
+    <!-- Class - Grouping
+    - grouping of similar elements
+    - one class can be used any number of times
+    - one tag can have any number of classes
+    - represented by . dot -->
+
+    <div id="section-1">
+        <h2>This heading is inside section_1</h2>
+        <div class="child">
+            <h2 class="title-1">This heading is inside child div</h2>
+            <div class="inner-child">
+                <h2>This heading is inside inner-child</h2>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="section-2">
+        <h2>This heading is inside section_1</h2>
+        <div class="child">
+            <h2 class="title-1">This heading is inside child div</h2>
+            <div class="inner-child">
+                <h2>This heading is inside inner-child</h2>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>This heading is outside Parent_2</h2>
+    <h2>This heading is outside Parent_2</h2>
+    <h2>This heading is outside Parent_2</h2>
+    
+</body>
+</html>
