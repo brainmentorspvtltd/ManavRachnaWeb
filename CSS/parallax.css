@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    background-image: url("https://www.sportzcraazy.com/wp-content/uploads/2019/04/India-National-Cricket-Team-1024x664.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+div {
+    /* height: 750px; */
+    height: 100vh;
+    background-size: 100% 100%;
+    margin-bottom: 500px;
+    background-attachment: fixed;
+}
+#div_1 {
+    background-image: url("https://wallpaperaccess.com/full/1315984.jpg");
+}
+#div_2 {
+    background-image: url("https://akm-img-a-in.tosshub.com/businesstoday/images/story/202107/india-sixteen_nine.jpg?size=948:533");
+}
+#div_3 {
+    background-image: url("https://thesportsschool.com/wp-content/uploads/2020/10/as-d.jpg");
+}
+#div_4 {
+    background-image: url("https://worldinsport.com/wp-content/uploads/2020/07/Indian-Cricket-Team.jpg");
+}
+#div_5 {
+    background-image: url("https://thecricketlounge.com/static/c1e/client/99591/migrated_original/66b1b0b6d927d5002ad49cd1d8eb09f2.jpg");
+}
